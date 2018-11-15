@@ -1,0 +1,71 @@
+	
+	.content{									/* Main page */	
+		padding:15px;
+		border:1px double black;
+		border-style: outset;
+		background:white;
+		width:970px;
+		height:2350px;
+		position:relative;
+		top:0px;
+		bottom:30px;
+		}
+
+	.header1{								
+		padding:15px;
+		border:1px double black;
+		border-style: outset;
+		background:white;
+		width:800px;
+		height:100px;
+		position:absolute;
+		top:190px;
+		left:15px;
+		bottom:30px;
+		}
+	.head{									
+		margin:0;
+		position:relative;
+		top:10px;
+		margin-left: auto;
+		margin-right: auto;
+		border:1px double black;
+		height:2100px;
+		width:930px;g
+		}
+	.consolehead{									/* Heading at top of consoles list. 'Please choose ... ' */	
+		width:920px;
+		height:50px;
+		position:absolute;
+		top:5px;
+		left:5px;
+		background-image: url(Images/BodyBg.jpg);
+		}
+	
+	hr {										/* Horizontal rules between console choices */	
+		width:80%;
+		position:relative;
+		}
+	.bigbuttons{								/* Choices for each console. Repair, Mod or Buy */	
+		width: 120px;
+		height: 50px;
+		background: #B22222; 
+		border: 2px double black;
+		border-color:yellow;
+		float: left;
+		font-weight: bold;
+		font-size: 20px;
+		font-family: arial black;
+		text-align: center;
+		}
+	.bigbuttons a{	
+		margin-top: 2px;
+		
+		display:block;
+		width:100%;
+		height:94%;
+		text-decoration:none;
+		color: #000000;
+		line-height:100%;
+		}
+		

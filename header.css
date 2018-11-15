@@ -1,0 +1,99 @@
+.content{
+	padding:15px;
+	margin: auto;
+	border:1px double black;
+	border-style: outset;
+	background:white;
+	width:970px;
+	height:auto;
+}
+.logo{
+	float: left;
+
+	width:400px;
+	height:100px;
+	}
+.slogan_header{
+	margin: 10px;
+	font-family:arial;
+	color:blue;
+	/*float: left;*/
+	font-weight:bold;
+	font-style:italic;
+}
+.nav_group{
+/*	top:70px;
+	left:404px;
+	width:600px;*/
+}
+
+.navboxes{								
+	margin-left: 7px;
+	z-index: 10;
+	height:34px;
+	width:76px;
+	float: left;
+	background: #B22222;
+	border: 2px double black; 
+	border-color:yellow ; 
+	font-weight: bold;
+	font-size: 20px;
+	font-family: arial black;
+	padding: 3px;
+	text-align: center;
+	color: black; 
+	display: block;
+	position: relative;
+}
+.navboxes a{	
+	border: 0px;
+	display:block;
+	width:100%;
+	height:100%;
+	text-decoration:none;
+	color: #000000;
+	padding-top: 7px;
+	line-height:90%;
+	}
+.navboxes a:hover{
+	border: 1px double black;
+	}
+.tabs{									
+	padding:10px;
+	color:yellow;
+	font-size:17px;
+	font-family:arial;
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	margin: auto;
+	top: -6px;
+	background-image: url(Images/BodyBg.jpg);
+	height:25px;
+	width:949px;
+	z-index: 2;
+	clear: both;
+
+		}
+
+A:link, A:visited, A:active{
+	color:yellow;
+	border-color:yellow;
+	text-decoration:none;
+	}
+
+A:hover{
+	color:orange;
+	text-decoration:none;
+	}
+
+
+
+.copyright{								
+	margin:0;
+	position:relative;
+	top:100px;
+	left:440px;
+	height:60px;
+	width:160px;
+	}
